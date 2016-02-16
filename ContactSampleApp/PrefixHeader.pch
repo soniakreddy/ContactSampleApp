@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  AcronymDecoder
+//
+//  Created by Sonia Reddy Kolli on 02/15/16.
+//  Copyright (c) 2016 Sonia Reddy Kolli. All rights reserved.
+//
+
+#ifndef ContactSampleApp_PrefixHeader_pch
+#define ContactSampleApp_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifndef TARGET_OS_IOS
+#define TARGET_OS_IOS TARGET_OS_IPHONE
+#endif
+#ifndef TARGET_OS_WATCH
+#define TARGET_OS_WATCH 0
+#endif
+
+#endif
